@@ -1,0 +1,18 @@
+{
+  "name": "mailmsnapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config/emailer.js",
+  "scripts": {
+    "startsendmail": "node config/emailer.js",
+    "startsendsms": "node config/sms.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.8.0",
+    "twilio": "^3.83.0"
+  }
+}
